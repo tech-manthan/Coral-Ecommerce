@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import {
   BrandFive,
   BrandFour,
@@ -53,8 +54,8 @@ const models = [
     src: ModelThree,
   },
   {
-    id: 4,
-    src: ModelFour,
+    id: 5,
+    src: ModelFive,
   },
 ];
 
@@ -71,7 +72,7 @@ const Category = () => {
               <img
                 key={brand.id}
                 src={brand.src}
-                className="h-10 md:h-14"
+                className="h-10 md:h-14 hover:scale-110 transition-[scale] duration-200 cursor-pointer"
                 alt=""
               />
             );
@@ -81,15 +82,16 @@ const Category = () => {
         <div className="grid gap-4 xs:grid-cols-2 xs:grid-rows-4 md:grid-cols-4 md:grid-rows-2">
           {models.map((model) => {
             return (
-              <img
+              <Link
                 key={model.id}
-                src={model.src}
+                to={"/"}
                 className={`${
                   model.id == 4 &&
                   "xs:col-start-1 xs:col-end-3 xs:row-start-1 xs:row-end-3"
-                } object-cover`}
-                alt=""
-              />
+                } object-cover hover:scale-110 transition-[scale] duration-200`}
+              >
+                <img src={model.src} className="" alt="" />
+              </Link>
             );
           })}
         </div>
