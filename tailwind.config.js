@@ -7,6 +7,7 @@ export default {
         Black: "#1E2832",
         "Black-5": "#1E28320d",
         Dark: "#000000",
+        Stroke: "#E3E3E3",
       },
       fontFamily: {
         primary: ["Roboto", "sans-serif"],

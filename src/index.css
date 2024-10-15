@@ -8,6 +8,15 @@
 
 @layer base {
   body {
-    @apply font-primary max-w-7xl mx-auto;
+    @apply font-primary max-w-[1440px] mx-auto overflow-x-hidden;
+  }
+}
+
+@layer utilities {
+  .navbar {
+    @apply max-w-7xl mx-auto p-4;
+  }
+  .container {
+    @apply max-w-[1440px] mx-auto px-4 pb-20 overflow-x-hidden;
   }
 }
