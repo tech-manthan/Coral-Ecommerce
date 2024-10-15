@@ -52,7 +52,7 @@ const Navbar = () => {
   }
   return (
     <header className="relative">
-      <nav className="navbar flex flex-col gap-4 z-50 fixed top-0 left-0 right-0">
+      <nav className="navbar bg-white/50 backdrop-blur-sm flex flex-col gap-4 z-50 fixed top-0 left-0 right-0">
         <div className="flex justify-between items-center">
           <SearchIcon className="text-lg text-Black hidden sm:block" />
           <div className="flex justify-between items-center gap-2 lg:ml-32">
@@ -99,7 +99,7 @@ const Navbar = () => {
         <div
           className={`absolute w-80 bg-white/95 min-h-screen top-0 shadow-md ${
             open ? "right-0" : "-right-80"
-          }  p-4 transition-[right] duration-300 z-50 md:hidden `}
+          }  p-4 transition-[right] duration-300 z-50 lg:hidden `}
         >
           <button className="absolute top-4 right-4" onClick={handleNavbar}>
             <Cross className="w-8 h-8" />

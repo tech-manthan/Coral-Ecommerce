@@ -1,5 +1,5 @@
 import { ShoppingBagIcon } from "../../assets/icons";
-import { BannerModel, Design1, Design2 } from "../../assets/images";
+import { BannerModel, Design1, Design2 } from "../../../public/images";
 
 const Banner = () => {
   return (

@@ -10,7 +10,7 @@ import {
   ModelOne,
   ModelThree,
   ModelTwo,
-} from "../../assets/images";
+} from "../../../public/images";
 
 const brands = [
   {
@@ -62,7 +62,7 @@ const models = [
 const Category = () => {
   return (
     <div className="container lg:relative pt-16">
-      <div className="flex flex-col gap-8 max-w-4xl mx-auto">
+      <div className="flex flex-col gap-4 sm:gap-6 md:gap-10 max-w-4xl mx-auto">
         <h2 className="text-3xl mb-8 md:text-4xl xl:text-3xl xl:absolute xl:-rotate-90 xl:w-72 text-center xl:-translate-y-1/2 xl:top-1/2 uppercase -left-8">
           Explore new and popular styles
         </h2>
