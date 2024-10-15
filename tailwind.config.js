@@ -15,6 +15,9 @@ export default {
         logo: ["Lora", "serif"],
         zara: ["Cinzel", "serif"],
       },
+      screens: {
+        xs: "480px",
+      },
     },
   },
   plugins: [],
