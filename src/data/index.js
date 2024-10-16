@@ -18,6 +18,7 @@ const products = [
     price: 364.0,
     salePrice: 155.0,
     isHot: false,
+    status: "best-seller",
   },
   {
     id: 2,
@@ -27,6 +28,7 @@ const products = [
     price: 236.0,
     salePrice: 0,
     isHot: true,
+    status: "best-seller",
   },
   {
     id: 3,
@@ -36,6 +38,7 @@ const products = [
     price: 220.0,
     salePrice: 198.0,
     isHot: false,
+    status: "best-seller",
   },
   {
     id: 4,
@@ -45,6 +48,7 @@ const products = [
     price: 53.0,
     salePrice: 0,
     isHot: false,
+    status: "best-seller",
   },
   {
     id: 5,
@@ -54,6 +58,7 @@ const products = [
     price: 130.0,
     salePrice: 0,
     isHot: false,
+    status: "new-arrival",
   },
   {
     id: 6,
@@ -63,6 +68,7 @@ const products = [
     price: 130.0,
     salePrice: 0,
     isHot: false,
+    status: "best-seller",
   },
   {
     id: 7,
@@ -72,6 +78,7 @@ const products = [
     price: 160.0,
     salePrice: 0,
     isHot: false,
+    status: "new-arrival",
   },
   {
     id: 8,
@@ -81,6 +88,27 @@ const products = [
     price: 120.5,
     salePrice: 0,
     isHot: false,
+    status: "new-arrival",
+  },
+  {
+    id: 9,
+    image: ProductSix,
+    title: "Dynamic Classics Joggers",
+    category: "dress",
+    price: 130.0,
+    salePrice: 0,
+    isHot: false,
+    status: "best-seller",
+  },
+  {
+    id: 10,
+    image: ProductSix,
+    title: "Adicolor Classics Joggers",
+    category: "dress",
+    price: 130.0,
+    salePrice: 0,
+    isHot: false,
+    status: "new-arrival",
   },
 ];
 

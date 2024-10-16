@@ -1,8 +1,18 @@
 /* eslint-disable react/prop-types */
 
-const ProductCard = ({ image, title, category, price, salePrice, isHot }) => {
+const ProductCard = ({
+  image,
+  title,
+  category,
+  price,
+  salePrice,
+  isHot,
+  className,
+}) => {
   return (
-    <div className="flex flex-col gap-2 font-secondary relative max-w-72">
+    <div
+      className={`flex flex-col gap-2 font-secondary relative max-w-72 ${className}`}
+    >
       <img className="max-w-72" src={image} alt="" />
       <div className="flex flex-col gap-2 p-2">
         <h4 className="text-base font-medium font-secondary text-Dark">
