@@ -3,8 +3,8 @@ import { BannerModel, Design1, Design2 } from "../../../public/images";
 
 const Banner = () => {
   return (
-    <div className="container pt-20 md:pt-32 bg-Black-5 flex flex-col items-center justify-center md:flex-row-reverse gap-4 md:gap-8 lg:relative">
-      <div className="relative max-w-[280px] my-10 ">
+    <div className="container pt-20 md:pt-32 min-h-screen bg-Black-5 flex flex-col items-center justify-center md:flex-row-reverse gap-4 md:gap-8 lg:relative">
+      <div className="relative max-w-[280px] my-10 mt-20 md:my-10">
         <div className="rounded-tl-[8rem] rounded-br-[8rem] w-full h-[400px] absolute top-4 left-4 border-2 border-Dark/25"></div>
         <img
           src={BannerModel}

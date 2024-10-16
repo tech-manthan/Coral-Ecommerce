@@ -1,4 +1,10 @@
 import {
+  Follow01,
+  Follow02,
+  Follow03,
+  Follow04,
+  Follow05,
+  Follow06,
   ProductEight,
   ProductFive,
   ProductFour,
@@ -112,4 +118,31 @@ const products = [
   },
 ];
 
-export { products };
+const followImages = [
+  {
+    id: 1,
+    image: Follow01,
+  },
+  {
+    id: 2,
+    image: Follow02,
+  },
+  {
+    id: 3,
+    image: Follow03,
+  },
+  {
+    id: 4,
+    image: Follow04,
+  },
+  {
+    id: 5,
+    image: Follow05,
+  },
+  {
+    id: 6,
+    image: Follow06,
+  },
+];
+
+export { products, followImages };

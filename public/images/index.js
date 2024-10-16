@@ -29,6 +29,13 @@ import ZaraLogoTwo from "./zara2.svg";
 
 import NotFoundImage from "./404.png";
 
+import Follow01 from "./follow01.png";
+import Follow02 from "./follow02.png";
+import Follow03 from "./follow03.png";
+import Follow04 from "./follow04.png";
+import Follow05 from "./follow05.png";
+import Follow06 from "./follow06.png";
+
 export {
   BannerModel,
   Design1,
@@ -54,4 +61,10 @@ export {
   ZaraLogoOne,
   ZaraLogoTwo,
   NotFoundImage,
+  Follow01,
+  Follow02,
+  Follow03,
+  Follow04,
+  Follow05,
+  Follow06,
 };
