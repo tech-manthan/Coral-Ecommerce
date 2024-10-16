@@ -1,24 +1,9 @@
-import {
-  Follow01,
-  Follow02,
-  Follow03,
-  Follow04,
-  Follow05,
-  Follow06,
-  ProductEight,
-  ProductFive,
-  ProductFour,
-  ProductOne,
-  ProductSeven,
-  ProductSix,
-  ProductThree,
-  ProductTwo,
-} from "../../public/images";
+import { imagePaths } from "../constants";
 
 const products = [
   {
     id: 1,
-    image: ProductOne,
+    image: imagePaths.productOne,
     title: "Yellow Reserved Hoodie",
     category: "hoodie",
     price: 364.0,
@@ -28,7 +13,7 @@ const products = [
   },
   {
     id: 2,
-    image: ProductTwo,
+    image: imagePaths.productTwo,
     title: "Basic Dress Green",
     category: "dress",
     price: 236.0,
@@ -38,7 +23,7 @@ const products = [
   },
   {
     id: 3,
-    image: ProductThree,
+    image: imagePaths.productThree,
     title: "Nike Air Zoom Pegasus",
     category: "shoe",
     price: 220.0,
@@ -48,7 +33,7 @@ const products = [
   },
   {
     id: 4,
-    image: ProductFour,
+    image: imagePaths.productFour,
     title: "Geometric print Scarf",
     category: "dress",
     price: 53.0,
@@ -58,7 +43,7 @@ const products = [
   },
   {
     id: 5,
-    image: ProductFive,
+    image: imagePaths.productFive,
     title: "Nike Sportswear Futura Luxe",
     category: "bag",
     price: 130.0,
@@ -68,7 +53,7 @@ const products = [
   },
   {
     id: 6,
-    image: ProductSix,
+    image: imagePaths.productFive,
     title: "Adicolor Classics Joggers",
     category: "dress",
     price: 130.0,
@@ -78,7 +63,7 @@ const products = [
   },
   {
     id: 7,
-    image: ProductSeven,
+    image: imagePaths.productSeven,
     title: "Nike Sportswear Futura Luxe",
     category: "glasses",
     price: 160.0,
@@ -88,7 +73,7 @@ const products = [
   },
   {
     id: 8,
-    image: ProductEight,
+    image: imagePaths.productEight,
     title: "Nike Repel Miler",
     category: "hoodie",
     price: 120.5,
@@ -98,7 +83,7 @@ const products = [
   },
   {
     id: 9,
-    image: ProductSix,
+    image: imagePaths.productOne,
     title: "Dynamic Classics Joggers",
     category: "dress",
     price: 130.0,
@@ -108,7 +93,7 @@ const products = [
   },
   {
     id: 10,
-    image: ProductSix,
+    image: imagePaths.productThree,
     title: "Adicolor Classics Joggers",
     category: "dress",
     price: 130.0,
@@ -121,28 +106,75 @@ const products = [
 const followImages = [
   {
     id: 1,
-    image: Follow01,
+    image: imagePaths.followOne,
   },
   {
     id: 2,
-    image: Follow02,
+    image: imagePaths.followTwo,
   },
   {
     id: 3,
-    image: Follow03,
+    image: imagePaths.followThree,
   },
   {
     id: 4,
-    image: Follow04,
+    image: imagePaths.followFour,
   },
   {
     id: 5,
-    image: Follow05,
+    image: imagePaths.followFive,
   },
   {
     id: 6,
-    image: Follow06,
+    image: imagePaths.followSix,
   },
 ];
 
-export { products, followImages };
+const brands = [
+  {
+    id: 1,
+    src: imagePaths.brandOne,
+  },
+  {
+    id: 3,
+    src: imagePaths.brandThree,
+  },
+  {
+    id: 4,
+    src: imagePaths.brandFour,
+  },
+  {
+    id: 5,
+    src: imagePaths.brandFive,
+  },
+  {
+    id: 2,
+    src: imagePaths.brandTwo,
+  },
+];
+
+const models = [
+  {
+    id: 4,
+    src: imagePaths.modelFour,
+  },
+  {
+    id: 1,
+    src: imagePaths.modelOne,
+  },
+  {
+    id: 2,
+    src: imagePaths.modelTwo,
+  },
+
+  {
+    id: 3,
+    src: imagePaths.modelThree,
+  },
+  {
+    id: 5,
+    src: imagePaths.modelFive,
+  },
+];
+
+export { products, followImages, brands, models };
