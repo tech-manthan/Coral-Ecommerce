@@ -1,5 +1,5 @@
 import { Outlet } from "react-router-dom";
-import { Footer, Navbar } from "../components";
+import { CompanyFooter, Footer, Navbar } from "../components";
 
 const Root = () => {
   return (
@@ -7,6 +7,7 @@ const Root = () => {
       <Navbar />
       <Outlet />
       <Footer />
+      <CompanyFooter />
     </div>
   );
 };

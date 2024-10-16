@@ -36,6 +36,8 @@ import Follow04 from "./follow04.png";
 import Follow05 from "./follow05.png";
 import Follow06 from "./follow06.png";
 
+import PaymentsIcons from "./payments_icons.png";
+
 export {
   BannerModel,
   Design1,
@@ -67,4 +69,5 @@ export {
   Follow04,
   Follow05,
   Follow06,
+  PaymentsIcons,
 };
