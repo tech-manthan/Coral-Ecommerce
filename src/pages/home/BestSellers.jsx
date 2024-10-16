@@ -13,9 +13,9 @@ const BestSellers = () => {
 
   return (
     <div className="container flex flex-col">
-      <div className="mt-16 flex flex-col gap-4">
+      <div className="mt-16 flex flex-col gap-4 max-w-4xl mx-auto">
         <h2 className="text-3xl text-center capitalize">Best sellers</h2>
-        <p className="text-justify">
+        <p className="text-justify sm:text-center">
           Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus arcu
           nunc, fermentum quis sapien in, placerat scelerisque risus. Class
           aptent taciti sociosqu ad litora torquent per{" "}

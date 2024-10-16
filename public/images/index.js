@@ -27,6 +27,8 @@ import Design2 from "./Design2.svg";
 import ZaraLogoOne from "./zara1.svg";
 import ZaraLogoTwo from "./zara2.svg";
 
+import NotFoundImage from "./404.png";
+
 export {
   BannerModel,
   Design1,
@@ -51,4 +53,5 @@ export {
   ProductEight,
   ZaraLogoOne,
   ZaraLogoTwo,
+  NotFoundImage,
 };
